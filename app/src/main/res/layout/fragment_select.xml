@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SelectFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Ticket" />
+
+    <TextView
+        android:id="@+id/type_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Tiket"
+        android:background="@color/grey"
+        android:paddingLeft="10dp"
+        android:paddingRight="150dp"
+        android:paddingVertical="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_buy_ticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy Ticket"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"
+        android:paddingHorizontal="40dp"/>
+
+</LinearLayout>

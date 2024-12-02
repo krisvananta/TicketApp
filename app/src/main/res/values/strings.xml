@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TicketApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <array name="type">
+        <item>First Class Ticket</item>
+        <item>Bussiness Class Ticket</item>
+        <item>Economy Class Ticket</item>
+    </array>
+</resources>
